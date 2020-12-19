@@ -40,7 +40,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-			<h1><a class="navbar-brand" href="index.html"><i class="fa fa-leanpub" aria-hidden="true"></i> scholarly</a></h1>
+			<h1><a class="navbar-brand" href="index.html"><i class="fa fa-leanpub" aria-hidden="true"></i> My School</a></h1>
 
 			</div>
 			<div class="w3layouts_header_right">
@@ -67,7 +67,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
                         <ul class="dropdown-menu">
                                         
                                                 <li><a href="#" target="_self">Logo and Values</a></li>
-                                                <li><a href="http://www.titikshapublicschool.com/vision-mission-2/" target="_self">Vision and Mission </a></li>
+                                                <li><a href="vision.php" target="_self">Vision and Mission </a></li>
                                                 <!--<li><a href="#">Principal's Message</a></li>-->
                                                 <li><a href="http://www.titikshapublicschool.com/dcertification-and-affiliation/" target="_blank">Affiliation</a></li>
                                                 <li><a href="http://www.titikshapublicschool.com/school-espirit/" target="_blank">School Espirit</a></li>

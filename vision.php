@@ -17,11 +17,11 @@
 function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--// Meta tag Keywords -->
 <!-- css files -->
-<link rel="stylesheet" href="../css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
-<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
-<link rel="stylesheet" href="../css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
-<link rel="stylesheet" href="../css/swipebox.css">
-<link rel="stylesheet" href="../css/jquery-ui.css" />
+<link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+<link rel="stylesheet" href="css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
+<link rel="stylesheet" href="css/swipebox.css">
+<link rel="stylesheet" href="css/jquery-ui.css" />
 <!-- //css files -->
 <!-- online-fonts -->
 <link href="//fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
@@ -40,7 +40,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-			<h1><a class="navbar-brand" href="index.html"><i class="fa fa-leanpub" aria-hidden="true"></i> scholarly</a></h1>
+			<h1><a class="navbar-brand" href="index.html"><i class="fa fa-leanpub" aria-hidden="true"></i>My School</a></h1>
 
 			</div>
 			<div class="w3layouts_header_right">
@@ -60,14 +60,14 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<a id="resp-menu" class="responsive-menu" href=""> Menu</a>
 					<ul class="nav navbar-nav">
 					
-						
+						<li><a href="index.php" target="_self">Home</a></li>
 					<li class="active">
-                        <a class="dropdown-toggle" data-toggle="dropdown">About us
+                        <a class="dropdown-toggle" data-toggle="dropdown" a href="#">About us
                         </a>
                         <ul class="dropdown-menu">
                                         
-                                                <li><a href="Logo.php" target="_self">Logo and Values</a></li>
-                                                <li><a href="http://www.titikshapublicschool.com/vision-mission-2/" target="_self">Vision and Mission </a></li>
+                                                <li><a href="logo.php" target="_self">Logo and Values</a></li>
+                                                <li><a href="#" target="_self">Vision and Mission </a></li>
                                                 <!--<li><a href="#">Principal's Message</a></li>-->
                                                 <li><a href="http://www.titikshapublicschool.com/dcertification-and-affiliation/" target="_blank">Affiliation</a></li>
                                                 <li><a href="http://www.titikshapublicschool.com/school-espirit/" target="_blank">School Espirit</a></li>
@@ -131,7 +131,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- about -->
 <div class="about-top" id="about">
 	<div class="container">
-		<h3 class="w3l-title">Logo and Values</h3>
+		<h3 class="w3l-title">Vision Mission</h3>
 		<div class="w3layouts_header">
 			<p><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
 		</div>

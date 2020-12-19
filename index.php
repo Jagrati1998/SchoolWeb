@@ -40,7 +40,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-			<h1><a class="navbar-brand" href="index.html"><i class="fa fa-leanpub" aria-hidden="true"></i> scholarly</a></h1>
+			<h1><a class="navbar-brand" href="index.html"><i class="fa fa-leanpub" aria-hidden="true"></i> My School</a></h1>
 
 			</div>
 			<div class="w3layouts_header_right">
@@ -73,8 +73,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
                        
                         <ul class="dropdown-menu">
                                         
-                                                <li><a href="Mypage/About.php" target="_self">Logo and Values</a></li>
-                                                <li><a href="http://www.titikshapublicschool.com/vision-mission-2/" target="_self">Vision and Mission </a></li>
+                                                <li><a href="logo.php" target="_self">Logo and Values</a></li>
+                                                <li><a href="vision.php" target="_self">Vision and Mission </a></li>
                                                 <!--<li><a href="#">Principal's Message</a></li>-->
                                                 <li><a href="http://www.titikshapublicschool.com/dcertification-and-affiliation/" target="_blank">Affiliation</a></li>
                                                 <li><a href="http://www.titikshapublicschool.com/school-espirit/" target="_blank">School Espirit</a></li>
@@ -610,31 +610,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
-		<div class="w3l-form">
-			<h3 class="w3l-title">Get In Touch</h3>
-			<div class="contact-grid1">
-				<div class="contact-top1">
-					<form action="#" method="post">
-						<div class="col-md-6 col-xs-6 wthree_contact_left_grid">
-							<label>Name*</label>
-							<input type="text" name="Name" placeholder="Name" required="">
-							<label>E-mail*</label>
-							<input type="email" name="E-mail" placeholder="E-mail" required="">
-						</div>
-						<div class="col-md-6 col-xs-6 wthree_contact_left_grid">
-							<label>Phone Number*</label>
-							<input type="text" name="number" placeholder="Phone Number" required="">
-							<label>Subject*</label>
-							<input type="text" name="subject" placeholder="Subject" required="">
-						</div>
-						<div class="form-group">
-							<label>Message*</label>
-							<textarea placeholder name="Message" required=""></textarea>
-						</div>
-							<input type="submit" value="Send">
-					</form>
-				</div>
-			</div>
+		
 		</div>
 	</div>
 </div>
@@ -681,7 +657,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 </div>
 <div class="w3layouts_copy_right">
 	<div class="container">
-		<p>© 2017 Scholarly. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts.</a></p>
+		<p>© 2020 My School. All rights reserved | Design by <a href="https://www.linkedin.com/in/jagrati-mishra-249375155/" target = "_blank">Jagrati Mishra.</a></p>
 	</div>
 </div>
 <!-- //footer -->
@@ -699,14 +675,14 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				google.maps.event.addDomListener(window, 'load', init);
 				function init() {
 					var mapOptions = {
-						zoom: 11,
-						center: new google.maps.LatLng(40.6700, -73.9400),
+						zoom: 20,
+						center: new google.maps.LatLng(25.754115,82.948915),
 						styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
 					};
 					var mapElement = document.getElementById('map');
 					var map = new google.maps.Map(mapElement, mapOptions);
 					var marker = new google.maps.Marker({
-						position: new google.maps.LatLng(40.6700, -73.9400),
+						position: new google.maps.LatLng(25.754115,82.948915),
 						map: map,
 					});
 				}
